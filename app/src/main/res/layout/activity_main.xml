@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="ERROR HANDLING"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_nama_array"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masukkan Nama Array"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_array"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Huruf (max 6 char)"
+            />
+
+        <TextView
+            android:id="@+id/tv_angka_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Angka 1"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_angka_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Integer"
+            />
+
+        <TextView
+            android:id="@+id/tv_angka_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Angka 2"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_angka_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Integer"
+            />
+
+        <Button
+            android:id="@+id/btn_cek"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="cek"
+            android:backgroundTint="#9E1D1D"
+            />
+
+        <Button
+            android:id="@+id/btn_tambah"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="tambah"
+            />
+
+        <Button
+            android:id="@+id/btn_kurang"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="kurang"
+            />
+
+        <Button
+            android:id="@+id/btn_bagi"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="bagi INT"
+            />
+
+        <Button
+            android:id="@+id/btn_kali"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="kali"
+            />
+
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_hasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+</LinearLayout>
